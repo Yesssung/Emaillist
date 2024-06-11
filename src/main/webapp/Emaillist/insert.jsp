@@ -46,7 +46,7 @@ try {
 	} else {
 		*/
 if (success) {		// INSERT 성공
-	response.sendRedirect(request.getContextPath());	
+	response.sendRedirect(request.getContextPath() + "/Emaillist/");	
 } else {
 		%>
 		<h1> Error </h1>
