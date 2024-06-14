@@ -9,8 +9,8 @@
 <body>
 <h1>Emaillist</h1>
 <ul>
-	<li><a href = "<%= request.getContextPath() + "/Emaillist" %>">Model 1</a></li>
-	<li>Model 2 (Servlet + JSP)</li>
+	<li><a href = "<%=request.getContextPath() + "/Emaillist" %>">Model 1</a></li>
+	<li><a href = "<%=request.getContextPath() + "/el" %>"> Model 2 (Servlet + JSP)</a></li>
 </ul>
 </body>
 </html>
