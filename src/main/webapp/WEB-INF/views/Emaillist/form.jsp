@@ -28,7 +28,7 @@
 		</form>
 
 		<p>
-			<a href="<%= request.getContextPath()%>/el">목록</a>
+			<a href="<c:url value="/el" />">목록</a>
 		</p>
 	</body>
 

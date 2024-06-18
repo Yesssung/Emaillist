@@ -16,7 +16,7 @@
 <head>
 <meta charset="UTF-8">
 <title>메일링 리스트:메인</title>
-<link type = "text/css" rel="stylesheet" href = "<%=request.getContextPath()%>/css/list.css"/>
+<link type = "text/css" rel="stylesheet" href = "<c:url/css/list.css"/>
 <script>
 function delete_item(event, frm) {
 	event.preventDefault();
